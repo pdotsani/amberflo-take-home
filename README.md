@@ -1,6 +1,32 @@
-# Getting Started with Create React App
+# Frontend Take Home Project
+
+This repo contains a react application that uses a given api to view, create, edit, and delete meters.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+To start this app locally, 
+- first install dependencies by running `npm install`. 
+- Create a `.local.env` file, and add the api key to `REACT_APP_API_KEY` 
+```
+REACT_APP_API_KEY=<api key here>
+```
+- then run `npm start` in the root directory in the console.
+
+## Views
+
+### MeterTable
+
+View all meters here. You can view individual meteres and create a new meter as well.
+
+### MeterDetailsPage
+
+View details for a meter here. You can edit or delete the meter as well.
+
+### NewMeterPage
+
+Create a new meter here.
+
+Below are more scripts if you need to create a prod build and for fruture testing:
 
 ## Available Scripts
 
